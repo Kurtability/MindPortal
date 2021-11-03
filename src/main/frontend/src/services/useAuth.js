@@ -127,7 +127,11 @@ function useProvideAuth() {
                 console.log(result);
                 setUser(result.data.user);
                 setToken(result.data.token.token);
-                localStorage.setItem("jwt-token", result.data.token.token);
+                localStorage.setItem("user", JSON.stringify(result.data.user));
+                localStorage.setItem(
+                    "jwt-token",
+                    JSON.stringify(result.data.token.token)
+                );
                 success();
             })
             .catch((err) => {
