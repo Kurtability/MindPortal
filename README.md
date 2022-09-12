@@ -1,5 +1,46 @@
 # Mind Portal
 
+Project requirements:
+- Functional Requirements
+●The user is able to create an account and sign up.
+●The user is able to sign in and log in to the application.
+●The user is able to answer the questionnaires, and the result of the diagnosis is
+saved to the database.
+●The user will be able to view their answers from the questionnaires.
+●The user is able to view a dashboard that presents the outcome of the diagnosis.
+●The dashboard contains resources tailored to the outcome of the diagnosis
+(displayed in text format under dashboard).
+●The diagnosis of the user can be downloaded as a pdf file or sent to the user’s
+phone as a text message.
+●The users can change their personal details.
+●When the dashboard indicates the user’s current condition, it will have a navigation
+button to the next page that displays the possible actions.
+●The user will be able to access a COVID help page, where it will present help
+suggestions from different organisations.
+●The user can view active covid cases in Australia on the home page.
+●The user can view current vaccination rates in Australia on the home page.
+●Web scraping functions will be implemented for the covid information, such as the
+covid help page, covid current vaccination rates, and current active covid cases.
+
+- Non-Functional Requirements
+●Security of the user login details/ user details
+○User password will be securely encrypted (e.g. using MD5)
+●The system will always be available to the user
+○The website wouldn’t be prone to crashing.
+○The database would always be available.
+○If for distinctive reasons, the web scraping functionalities for the audios,
+images, and videos needed for the program runs into an error, the system
+would use the media sources manually stored in the database.
+●Users will be able add extra security to login if they desire
+○This will be provided by the 2FA process, where the user will receive login
+authorisations using either SMS or email to successfully sign in to the system.
+●The program will be responsive at all times
+○The system will be utilising the AJAX library to achieve optimal
+responsiveness of the website.
+●The diagnosis of the user will be accurate according to the K10 questionnaire and
+saved under their profile
+○The diagnosis would be stored in its corresponding database schema.
+
 - Libraries used
 Frontend
 
