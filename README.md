@@ -42,7 +42,7 @@ saved under their profile
 ○The diagnosis would be stored in its corresponding database schema.
 
 - Libraries used
-Frontend
+- Frontend
 
 Library	Version
 react	17.0.2
@@ -58,7 +58,10 @@ node-sass	6.0.1
 animate.css	4.1.1
 react-scripts	4.0.3
 web-vitals	1.0.1
-Backend
+
+
+
+- Backend
 
 Library	Version
 spring-boot	2.5.4
@@ -72,17 +75,8 @@ sendgrid-java	4.0.1
 spring-security-crypto	5.5.2
 passay	1.0
 jjwt	0.9.1
-- Working functionalities
-Users able to register a new account
-Users able to log in with an existing account
-Users are able to answer the questionnaires and the result is saved to the database
-Users are able to answer the questionnaires and the final results can be sent to their email
-Users are able to view a results page that presents the outcome of the diagnosis.
-Users can view current COVID-19 alerts on the dashboard home page.
-The dashboard contains default mindfulness recommendations for registered users.
-Users can change their personal details
-Users can modify their passwords.
-Users can undertake a smile challenge that will analyze their smile and return a result.
+
+
 - Getting started guide
 Setup
 
